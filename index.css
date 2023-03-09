@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( to left, bisque, rgb(245, 188, 119)) ;
+}
+
+.header{
+    margin: 50px;
+    width:auto;
+    height: 400px;
+    background-color: rgb(207, 202, 178);
+    box-shadow: 0 0px 5px 0.5px;
+    overflow-y: scroll;
+}
+
+footer{
+    margin: 50px;
+    width:auto;
+    height: 100px;
+    background-color: rgb(207, 202, 178);
+    box-shadow: 0 0px 5px 0.5px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 50px
+    
+}
+
+
+.navList{
+    position: static;
+}
+ul{
+    display: flex;
+    padding: 30px;
+    
+
+}
+li{
+    padding: 20px;
+    list-style: none;
+}
+
+p{
+    margin: 20px;
+}
+#lastP{
+    padding: 5px;
+    background-color: rgb(207, 202, 178);
+}
+#thirdP{
+    padding: 5px;
+    background-color: rgb(207, 202, 178);
+}
+#secondP{
+    padding: 5px;
+    background-color: rgb(207, 202, 178);
+}
+#firstP{
+    padding: 5px;
+    background-color: rgb(207, 202, 178);
+}
+
+
